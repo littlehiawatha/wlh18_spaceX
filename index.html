@@ -1,53 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<section lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="index.html">
-   <link rel="stylesheet" href="index.js">
+   <link rel="stylesheet" href="./reset.css" type="text/css">
+   <link rel="stylesheet" href="./style.css" type="text/css">
    <title>SpaceX</title>
 </head>
 
 <body>
    <header>
 
-      <nav>
-         <ul>
+      <nav class="header-bar">
+         <ul class="main-nav-1">
+            <img src="https://www.spacex.com/sites/spacex/files/spacex_logo_white.png" alt="SpaceX Logo" />
             <li>FALCON 9</li>
             <li>FALCON HEAVY</li>
             <li>DRAGON</li>
             <li>STARSHIP</li>
          </ul>
 
-         <ul>
+         <ul class="main-nav-2">
             <li>UPDATES</li>
             <li>ABOUT SPACEX</li>
             <li>CAREERS</li>
             <li>SHOP</li>
-         </ul>         
+         </ul>
       </nav>
 
    </header>
 
-   <section class = "image-container">
-      <img src="" alt="SpaceX image">
-      <div>
-         <div></div>
+   <section class="image-container">
+
+      <!-- <img src="https://www.spacex.com/sites/spacex/files/crs20_streak1.jpg" alt="SpaceX image" class="main-image"> -->
+
+      <div class="learn-more-bar">
+         <div>CRS-20 MISSION</div>
          <button>LEARN MORE</button>
       </div>
-      <nav>
+
+      <nav class="topic-bar">
          <ul>
-            <li></li>
-            <li>CRS-20 MISSION</li>
-            <li>SMALLSAT RIDESHARE PROGRAM</li>
-            <li>NASA ASTRONAUTS ON CREW DRAGON</li>
-            <li></li>
+            <li class="topic-bar-li"></li>
+            <li class="topic-bar-li">CRS-20 MISSION</li>
+            <li class="topic-bar-li">SMALLSAT RIDESHARE PROGRAM</li>
+            <li class="topic-bar-li">NASA ASTRONAUTS ON CREW DRAGON</li>
+            <li class="topic-bar-li"></li>
          </ul>
       </nav>
 
 
    </section>
 
+
+   <section class="news-updates">
+
+      <div class="updates-span">
+         SPACEX DESIGNS, MANUFACTURES AND LAUNCHES ADVANCED ROCKETS AND SPACECRAFT
+      </div>
+
+      <div class="blog-cards">
+         <div class="card">
+            <div>
+               <img src="https://www.spacex.com/sites/spacex/files/home_block_reusable.jpg" alt="launch pad">
+
+               <h3>
+                  <a href="https://www.spacex.com/news/2013/03/31/reusability-key-making-human-life-multi-planetary">REUSABILITY:
+                     WORLD’S FIRST REFLIGHT OF AN ORBITAL CLASS ROCKET</a>
+               </h3>
+
+               <a href="https://www.spacex.com/news/2013/03/31/reusability-key-making-human-life-multi-planetary"
+                  class="card-learnMore"> LEARN MORE</a>
+            </div>
+         </div>
+
+         <div class="card">
+            <div>
+               <img src="https://www.spacex.com/sites/spacex/files/home_block_commercial_crew.jpg"
+                  alt="Astronaut Dashboard">
+
+               <h3>
+                  <a href="https://www.spacex.com/crew-dragon">COMMERCIAL CREW: TAKING AMERICA’S ASTRONAUTS TO SPACE</a>
+               </h3>
+
+               <a href="https://www.spacex.com/crew-dragon" class="card-learnMore"> LEARN MORE</a>
+            </div>
+         </div>
+
+         <div class="card">
+            <div>
+               <img src="https://www.spacex.com/sites/spacex/files/multiplanetary_thumbnail.jpg" alt="rocket ship">
+
+               <h3>
+                  <a href="https://www.spacex.com/news/2013/03/31/reusability-key-making-human-life-multi-planetary">MAKING
+                     LIFE MULTIPLANETARY</a>
+               </h3>
+
+               <a href="https://www.spacex.com/news/2013/03/31/reusability-key-making-human-life-multi-planetary"
+                  class="card-learnMore"> LEARN MORE</a>
+            </div>
+         </div>
+
+      </div>
+
+   </section>
+
+   <footer>
+
+      <nav>
+         <ul>
+            <img src="https://www.spacex.com/sites/all/themes/spacex2012/images/logo-sm.png" alt="">
+            <li class="socialLinks">TWITTER</li>
+            <li class="socialLinks">YOUTUBE</li>
+            <li class="socialLinks">FLICKR</li>
+            <li class="socialLinks">INSTAGRAM</li>
+            <li class="socialLinks">PRIVACY</li>
+         </ul>
+      </nav>
+
+      <div class="copywrite">
+         © 2020 SPACE EXPLORATION TECHNOLOGIES CORP.
+      </div>
+
+   </footer>
+
+   <script src="./index.js"></script>
 </body>
 
-</html>
+</section>

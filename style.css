@@ -1,0 +1,185 @@
+* {
+   font-family: ""Brandon Grotesque", brandon-grotesque-n7, brandon-grotesque, Helvetica, sans-serif;";
+
+   /* https://fonts.adobe.com/fonts/brandon-grotesque#usage-section */
+   /* font-family: brandon-grotesque, sans-serif;
+   font-style: normal;
+   font-weight: 100; */
+
+
+}
+
+header {
+   height: 75px;
+   width: 100%;
+   background-color: #000000;
+   /* font: #ffffff; */
+   font-family: ""Brandon Grotesque", brandon-grotesque-n7, brandon-grotesque, Helvetica, sans-serif;";
+   color: white;
+
+
+}
+
+.main-nav-1 {
+   width: 40%;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.main-nav-2{
+   width: 25%;
+   display: flex;
+   justify-content: space-around;
+   color: #8b939b;
+   font-size: 12px;
+}
+
+.header-bar {
+   padding-top: 30px;
+   width: 100%;
+
+   display: flex;
+   justify-content:space-around;
+}
+
+li {
+   /* font: #ffffff; */
+
+}
+
+
+.image-container {
+   height: 699.5px;
+   background-image: url("https://www.spacex.com/sites/spacex/files/crs20_streak1.jpg");
+
+   background-position: center;
+   background-size: cover;
+
+   color: white;
+   position: relative;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+
+}
+
+.learn-more-bar {
+   height: 100px;
+   background-color: #4b5256;
+   opacity: 0.85;
+
+   display: flex;
+   justify-content: space-evenly;
+   text-align: center;
+   align-items: center;
+
+
+   font-weight: 700;
+   font-size: 35px;
+}
+
+.updates-span{
+   text-align: center;
+   content: center;
+   padding-top: 50px;
+   font: bold;
+
+   /* The line below was copied off spaceX  */
+   box-shadow: inset 0 100px 100px -100px rgba(0,0,0,0.4);
+
+}
+
+.topic-bar {
+   height: 60px;
+   width: 100%;
+   background-color: #4b5256;
+
+   /* position: absolute; */
+   bottom: 0;
+}
+
+.topic-bar-li{
+
+}
+
+.main-image {
+
+   background-position: center;
+}
+
+
+
+
+
+.blog-cards {
+   height: 100vh;
+   display: flex;
+
+   /* flex-direction: row;
+   align-items: center;
+   justify-content: center; */
+
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+}
+
+.card {
+   width: 310px;
+   height: 282.5px;
+   background-color: #ffffff;
+   border: 1px #000000 solid;
+}
+
+.card-learnMore {
+   /* font-style: none; */
+   color: #3569a4;
+   font: inherit;
+   font-size: 75%;
+}
+
+footer {
+   height: 50px;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   background-color: black;
+   color: white;   
+
+}
+
+
+nav {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+}
+
+ul {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+}
+
+.socialLinks{
+   /* width: 90%;
+   display: flex;
+   justify-content: space-evenly; */
+   margin: 10px;
+}
+
+.copywrite{
+   /* justify-content: space-around; */
+   color: #8b939b;
+   padding-top: 20px;
+}
